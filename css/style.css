@@ -17,9 +17,10 @@ header{
 	background-image: url(../img/background-img.jpg);
 	height: 100%;
 	position: relative;
+	background: linear-gradient(rgba(191, 191, 191, 0,3),rgba(191, 191, 191, 0,3)), url();
 }
 
-header p{
+.header_nav p{
 	display: inline-block;
 	color: white;
 	z-index: 100;
@@ -28,7 +29,42 @@ header p{
 	margin-left: 60px;
 	font-weight: bold;
 }
+.header_nav{
+	margin-left: 950px;
+	margin-top: -50px;
+}
 
 .header_p1{
 	margin-left: 750px;
+}
+.header_main_headline{
+	position: relative;
+	color: white;
+	text-align: center;
+	font-size: 90px;
+	margin-top: 280px;
+}
+.header_main_headline2{
+	position: absolute;
+	color: white;
+	text-align: center;
+	font-size:30px;
+	top: 500px;
+	left: 35%;
+}
+.header_watch_video{
+	width: 250px;
+	height: 70px;
+	background: white;
+	position: relative;
+	margin-left: 43%;
+	margin-top: 100px;
+}
+.header_watch_video p{
+	
+	color: gray;
+	margin-top: 30px;
+	text-align: center;
+	height: 100px;
+	padding-top: 20px;
 }
