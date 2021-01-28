@@ -68,3 +68,48 @@ header{
 	height: 100px;
 	padding-top: 20px;
 }
+.main_title1{
+	color: gray;
+	position: relative;
+	text-align: center;
+	margin-top: 50px;
+}
+.main_downtitle1{
+	color: lightgray;
+	width: 600px;
+	text-align: center;
+	position: relative;
+	margin-left: 35%;
+}
+.main_product_img1{
+	width: 450px;
+}
+.main_product_img2{
+	width: 450px;
+}
+.main_product_img3{
+	width: 450px;
+}
+main  h2{
+	color: gray;
+}
+main h5{
+	color: lightgray;
+	position: relative;
+	margin-top: -50px;
+	margin-left: 150px;
+}
+.main_product_describtion{
+	width: 450px;
+	color: lightgray;
+}
+.main_product_more{
+	color: gray;
+}
+.main_product{
+	display: inline-block;
+	margin-left: 30px;
+}
+.p1{
+	margin-left: 250px;
+}
